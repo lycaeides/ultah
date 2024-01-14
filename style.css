@@ -5,17 +5,22 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #fdbf00;
+  /* background-color: #fdbf00; */
+  width: 100svh;
+  height: 100svh;
+  background-image: url("RajaBday2.jpg");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
 }
 .card {
   width: 640px;
   height: 500px;
   position: absolute;
   margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  left: -50%;
+  right: 50%;
+  top: 50%;
+  bottom: -50%;
   -webkit-perspective: 1200px;
   perspective: 1200px;
   transition: 1s;
@@ -154,3 +159,8 @@ body {
   color: rgb(212, 23, 121);
   text-transform: uppercase;
 }
+
+/* #raja {
+  width: 100vh;
+  height: 100vh;
+} */
